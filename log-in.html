@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Log in</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+  </head>
+  <body class="text-white text-roboto">
+    <!-- NAVIGATION -->
+    <div id="hero" class="w-full pb-8 text-center bg-[url('https://images.pexels.com/photos/30536413/pexels-photo-30536413.jpeg')] bg-cover bg-center bg-no-repeat relative z-10" style="position: relative;">
+      <nav class="sticky top-0 z-50 bg-black/60 backdrop-blur-md">
+        <div class="w-full p-4 flex items-center justify-between px-50">
+          <div class="flex items-center space-x-4 md:w-auto w-full justify-between">
+            <div class="flex items-center space-x-4">
+              <!-- <img src="" class="w-14 h-14 text-black"> -->
+              <h4 class="text-2xl">Travels and Tours</h4>
+            </div>
+          </div>
+          <ul class="md:flex items-center space-x-15 text-lg font-semibold">
+            <li>
+              <a href="index.html" class="hidden md:block hover:text-orange-300 transition">Home</a>
+            </li>
+            <li>
+              <a href="content.html" class="hidden md:block hover:text-orange-300 transition">Content</a>
+            </li>
+            <li>
+              <a href="price-block.html" class="hidden md:block hover:text-orange-300 transition">Price</a>
+            </li>
+            <li>
+              <a href="download-app.html" class="hidden md:block hover:text-orange-300 transition">App</a>
+            </li>
+            <li>
+              <a href="contact-info.html" class="hidden md:block hover:text-orange-300 transition">Contact</a>
+            </li>
+            <li>
+              <a href="log-in.html" class="hidden md:block hover:text-orange-300 transition">Log-in</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-black/40 to-black z-10"></div>
+
+      <!-- PAGE HEADER UNDER SIDEBAR -->
+      <div class="relative px-6 py-20 text-left z-40 text-white flex items-center justify-center">
+        <div class="flex flex-col md:flex-row items-center justify-center gap-12">
+            <div class="relative z-10 flex flex-col h-full max-w-xl">
+                <p class="text-2xl mb-2 font-medium text-shadow-lg">Welcome!</p>
+                <h1 class="text-5xl md:text-7xl font-medium leading-tight text-shadow-lg">We're Glad<br/>You're Here</h1>
+                <p class="mt-4 text-lg text-gray-300 text-shadow-lg">
+                  Log in to continue your travel adventures, manage your bookings, and explore new destinations tailored just for you.
+                </p>
+            </div>
+            <!-- Login Form -->
+            <div class="flex flex-grow w-full py-12">
+                <div class="border border-gray-600 backdrop-blur rounded-md p-8 w-full shadow-sm">
+                <h2 class="text-2xl font-bold mb-6">Login</h2>
+
+                <form action="#">
+                    <div class="mb-4">
+                    <label class="block text-sm font-medium mb-1">Username or Email</label>
+                    <input type="text" class="w-full border-b border-gray-300 outline-none py-2" placeholder="Enter your email">
+                    </div>
+
+                    <div class="mb-4">
+                    <label class="block text-sm font-medium mb-1">Password</label>
+                    <input type="password" class="w-full border-b border-gray-300 outline-none py-2" placeholder="Enter password">
+                    </div>
+
+                    <div class="flex justify-between items-center text-sm mb-6">
+                    <label class="flex items-center">
+                        <input type="checkbox" class="mr-2">
+                        Remember Me
+                    </label>
+                    <a href="#" class="text-orange-500 hover:underline">Forgot Password</a>
+                    </div>
+
+                    <button type="submit"
+                    class="w-full bg-orange-500 text-white py-2 rounded-md hover:bg-orange-600">Login</button>
+
+                    <p class="text-sm text-center mt-4">
+                    Don’t have an account?
+                    <a href="#" class="text-orange-500 hover:underline">Create an account</a>
+                    </p>
+                </form>
+
+                <!-- Divider -->
+                <div class="flex items-center my-6">
+                    <div class="flex-grow h-px bg-gray-300"></div>
+                    <span class="px-4 text-sm text-gray-500">Or</span>
+                    <div class="flex-grow h-px bg-gray-300"></div>
+                </div>
+
+                <!-- Social Buttons -->
+                <button
+                    class="w-full flex items-center justify-center gap-2 border py-2 rounded-full mb-3 hover:bg-gray-50">
+                    <img src="https://images.icon-icons.com/4049/PNG/512/facebook_logo_icon_257023.png" alt="Facebook" class="h-5">
+                    Continue with Facebook
+                </button>
+
+                <button
+                    class="w-full flex items-center justify-center gap-2 border py-2 rounded-full hover:bg-gray-50">
+                    <img src="https://images.icon-icons.com/2890/PNG/512/apps_web_development_chrome_logo_website_browser_google_icon_182706.png" alt="Google" class="h-5">
+                    Continue with Google
+                </button>
+                </div>
+            </div>
+        </div>
+            
+        
+      </div>
+    </div>
+
+    <div class="bg-gradient-to-b from-black to-[#141528] text-justify">
+      <section id="projects" class="py-12 px-6 bg-black px-48">
+        <!-- Section content placeholder -->
+        
+
+      </section>
+    </div>
+
+    <footer class="bg-black text-white w-full p-4 pt-24">
+      <div class="max-w-4xl mx-auto text-center p-4 rounded">
+        <p>&copy; 2025 Holiday Travel & Tours | Designed with ♥ for your next getaway.</p>
+      </div>
+    </footer>
+  </body>
+</html>
